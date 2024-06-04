@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('desktop-wallpaper-techy-backgrounds-portfolio.jpg');
+    background-size: cover;
+    color: #333; 
+}
+
+
+
+
+.home{
+    display: flex;
+    background-image:url('WhatsApp Image 2024-06-03 at 22.14.28_2028568d.jpg');
+    height: 100vh;
+    color:white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+   
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+   
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+   
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
+}
+
+/* about section styling */
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: center;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background-color: crimson;
+    color: #743f3f;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+
+
+header {
+    
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#about {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.607);
+    background-image:url('3048207.jpg');
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+.text{
+    color: white;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+#projects {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5); 
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 31%;
+    display: inline-block; 
+    
+}
+
+.project h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.project p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: black;
+}
+
+
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-image:url('desktop-wallpaper-techy-backgrounds-portfolio.jpg');
+    background-attachment: fixed;
+}
+
+#contact form {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+#contact .contact-details {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #650505;
+    border-radius: 5px;
+}
+
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea,
+#contact form input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background-color: #02a2ff;
+    color: #fff;
+    border: rgb(239, 19, 19);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color:rgb(252, 223, 223);
+}
+
+#contact .contact-details h3 {
+    margin-bottom: 10px;
+}
+
+#contact .contact-details p {
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
