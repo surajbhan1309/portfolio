@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Bhan Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        
+        .social-handles ul li:nth-child(1) a,
+        .social-handles ul li:nth-child(2) a {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+         
+
+            <div class="nav__menu" id="nav-menu">
+              
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1"><br><br><br><br><b>Hello, my name is</b></div>
+                <div class="text-2">Suraj Bhan Majhi</div>
+                <div class="text-3"><b>And I'm a web developer</b> <span class="typing"></span></div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me </h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="suraj2.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Suraj and I'm a web developer <span class="typing-2"></span></div>
+                    <p>Hey there! Meet Suraj Bhan Majhi, a go-getter from Naupada, Odisha, who's diving deep into the world of Computer Science and Engineering at NIT, Jalandhar.  At NIT Jalandhar, he's all about aiming high in academics and beyond. With a solid grip on computer science, Suraj is geared up to bring some fresh ideas to the table.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>
+                <b>Overview:</b><br>
+                The Contact Management System project is a Python application designed to streamline the organization and management of contacts. It offers users a convenient platform to add, view, edit, delete, and search for contacts efficiently.
+                <br><br>
+                <b>Key Features:</b><br>
+                - Add Contacts: Users can easily add new contacts, including details such as name, phone number, email address, and notes.<br>
+                - View Contacts: A user-friendly interface displays all contacts in a structured format, making it easy to browse and access contact information.<br>
+                - Edit and Delete Contacts: Users have the flexibility to edit existing contacts or delete them as needed, ensuring their contact list remains up-to-date.<br>
+                - Search Functionality: The system includes robust search capabilities, allowing users to quickly find specific contacts by name, phone number, or email address.<br>
+                - Persistence: Contacts are stored persistently, ensuring that users can save their contact list and access it across multiple sessions.<br>
+                - User-Friendly Interface: The application features an intuitive user interface, making it accessible to users of all technical levels.
+                <br><br>
+                <b>Technologies Used:</b><br>
+                Python: The project is implemented using the Python programming language, leveraging its simplicity and versatility.
+            </p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="contact-details">
+            <h3>Contact Details</h3>
+            <p>Email: surajbhan_example@gamil.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+        <div class="social-handles">
+            <h3>Follow Me</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/your_username"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/your_profile"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
